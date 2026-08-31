@@ -1,0 +1,43 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Logs and local run artifacts
+*.log
+pipeline.log
+run_baseline.log
+run_comparison_outer.log
+run_oracle.log
+wandb/
+
+# Training checkpoints and model weights
+optimization/ckpt/
+*.safetensors
+
+# Generated evaluation/training data
+evaluation/temp_data/
+optimization/temp_data/
+evaluation/results/
+optimization/results/
+evaluation/input.txt
+optimization/input.txt
+optimization/output.txt
+
+# W&B metric dumps
+optimization/wandb_metrics.json
+optimization/wandb_reward_metrics.json
+optimization/wandb_train_metrics.json
+
+# Local benchmark/data snapshots; keep download scripts and docs tracked
+data/*.json
+
+# Scratch research artifacts
+research/
