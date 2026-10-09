@@ -135,3 +135,4 @@ One-shot pass@1 (%) on five benchmarks, macro-averaged. CoVer achieves the best 
 ## Acknowledgement
 
 The training infrastructure builds on [Open-Reasoner-Zero](https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero), [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF) and [(Wang et al., 2026)](https://huggingface.co/datasets/Gen-Verse/MBPP-ReasonFlux), who also released the benchmark data in Stdio format.
+
